@@ -5,7 +5,7 @@
   gather_facts: yes
 
   roles:
-    - role: robertdebock.users
+    - role: ansible-role-users
       # You can create groups:
       users_group_list:
         - name: Group1
